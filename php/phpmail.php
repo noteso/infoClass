@@ -30,13 +30,13 @@ function phpmail($subject, $content, $reciever){
 	//Port to connect smtp
 		$mail->Port = "587";
 	//Set gmail username
-		$mail->Username = "infoclass.noreply@gmail.com";
+		$mail->Username = "";
 	//Set gmail password
-		$mail->Password = "brwaiqqmtflfiect";
+		$mail->Password = "";
 	//Email subject
 		$mail->Subject = $subject;
 	//Set sender email
-		$mail->setFrom('infoclass.noreply@gmail.com');
+		$mail->setFrom('');
 	//Enable HTML
 		$mail->isHTML(true);
 	//Attachment
